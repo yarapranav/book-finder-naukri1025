@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Book Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+Book Finder is a React-based web application that allows users to search for books using the Open Library API. Users can search by title, author, subject, or ISBN. The app offers a modern UI with support for dark and light modes, a floating glassy navbar, and smooth transitions.
 
-In the project directory, you can run:
+Users can view detailed information about books and manage a list of favorite books with persistent storage.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Search for books by Title, Author, Subject, or ISBN
+- Floating, translucent navbar with dark/light mode toggle
+- Detailed book view modal with cover image and metadata
+- Favorite books functionality with local persistence
+- Responsive design for desktop and mobile devices
+- Smooth loading animations and scroll behavior
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+The application is deployed at: [Your Deployment URL Here]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Running Locally
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/yarapranav/book-finder-naukri1025.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+text
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Change directory and install dependencies:
 
-### `npm run eject`
+cd book-finder-naukri1025
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+text
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Run the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+text
 
-## Learn More
+Open `http://localhost:3000` in your browser to access the app.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Use the search bar to search for books.
+- Toggle between dark and light modes via the navbar.
+- Add books to your favorites by clicking the heart icon.
+- View all favorites using the Favorites tab.
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React
+- Tailwind CSS
+- Framer Motion
+- Open Library API
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions, issues, and feature requests are welcome! Feel free to open a pull request.
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Created by Pranav Yara - [GitHub](https://github.com/yarapranav)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for viewing this project!
